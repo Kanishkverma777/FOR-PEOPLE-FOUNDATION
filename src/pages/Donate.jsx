@@ -30,7 +30,7 @@ export const Donate = () => {
       <Hero
         title="Make a Difference Today"
         subtitle="Your donation directly impacts children's lives through quality education and sustainable learning opportunities."
-        backgroundImage="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        backgroundImage="/donate_background.jpeg"
         height="large"
       />
 

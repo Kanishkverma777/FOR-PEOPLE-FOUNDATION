@@ -15,7 +15,7 @@ export const siteData = {
     title: "Education Changes Everything",
     subtitle: "Join us in creating a world where every child has access to quality education and the opportunity to reach their full potential.",
     ctaText: "Make a Difference",
-    backgroundImage: "https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+    backgroundImage: "/hero_background.jpeg"
   },
 
   about: {
@@ -29,7 +29,7 @@ export const siteData = {
       { title: "Community", description: "Building strong partnerships with local communities" },
       { title: "Impact", description: "Creating measurable, lasting change" }
     ],
-    image: "https://images.unsplash.com/photo-1636772523547-5577d04e8dc1?q=80&w=2966&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    image: "/about_image.jpeg"
   },
 
   programs: [

@@ -91,7 +91,7 @@ export const About = memo(() => {
   const heroProps = useMemo(() => ({
     title: "About 'For People Foundation'",
     subtitle: "We're dedicated to making quality learning accessible to underprivileged children. Our programs empower students and strengthen grassroots education systems.",
-    backgroundImage: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80",
+    backgroundImage: "/about_background.jpeg",
     height: "large"
   }), []);
 

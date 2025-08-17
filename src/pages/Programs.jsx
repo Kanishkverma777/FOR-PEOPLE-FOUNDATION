@@ -9,7 +9,7 @@ export const Programs = () => {
       <Hero
         title="Our Programs"
         subtitle="Comprehensive educational initiatives designed to empower communities and create lasting change through quality learning opportunities."
-        backgroundImage="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        backgroundImage="/programs_background.jpeg"
         height="large"
       />
 

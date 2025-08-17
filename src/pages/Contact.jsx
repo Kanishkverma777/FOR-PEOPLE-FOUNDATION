@@ -27,7 +27,7 @@ export const Contact = () => {
       <Hero
         title="Get in Touch"
         subtitle="We'd love to hear from you. Contact us about our programs, volunteer opportunities, or partnerships."
-        backgroundImage="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+        backgroundImage="/contact_background.jpeg"
         height="large"
       />
 
