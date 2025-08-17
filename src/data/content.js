@@ -35,52 +35,37 @@ export const siteData = {
   programs: [
     {
       id: 1,
-      title: "Early Childhood Education",
-      description: "Providing foundational learning experiences for children ages 3-6 through play-based learning and cognitive development programs.",
-      image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      beneficiaries: "2,500+ children",
-      locations: "15 communities"
+      title: "Admission Support Program",
+      description: "We guide students and families through the admissions process by connecting them with the right educational institutions and faculty. Our goal is to ensure every learner has a fair chance to access quality education.",
+      image: "/Admission Support Program.jpg",
+      beneficiaries: "600+ children",
+      locations: "10 communities"
     },
     {
       id: 2,
-      title: "Digital Literacy Initiative",
-      description: "Equipping students with essential digital skills and providing access to technology for enhanced learning opportunities.",
-      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      beneficiaries: "1,800+ students",
-      locations: "22 schools"
+      title: "Scholarship Guidance Program",
+      description: "We provide mentorship and counseling to help students identify, apply for, and secure scholarships. By supporting them through each step, we open doors to higher education for those from disadvantaged backgrounds.",
+      image: "/Scholarship Guidance Program.jpg",
+      beneficiaries: "300+ scholars",
+      locations: "20 schools"
     },
-    {
+    { 
       id: 3,
-      title: "Teacher Training Program",
-      description: "Empowering educators with modern teaching methodologies and professional development opportunities to enhance classroom effectiveness.",
-      image: "https://images.unsplash.com/photo-1544717297-fa95b6ee9643?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      beneficiaries: "850+ teachers",
+      title: "Policy Awareness Initiative",
+      description: "We simplify complex government education policies and schemes, making them accessible to parents, teachers, and students. By bridging the information gap, we help communities claim the benefits and rights they deserve.",
+      image: "/Policy Awareness Initiative.jpg",
+      beneficiaries: "600+ students",
       locations: "35 schools"
     },
     {
       id: 4,
-      title: "Scholarship Fund",
-      description: "Supporting bright students from disadvantaged backgrounds to pursue higher education and achieve their academic dreams.",
-      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      beneficiaries: "650+ scholars",
-      locations: "National program"
+      title: "Education Consulting & Capacity Building",
+      description: "We partner with schools, NGOs, and local organizations to strengthen educational delivery. Through tailored consulting, workshops, and capacity-building sessions, we empower institutions to create long-term impact.",
+      image: "/Education Consulting & Capacity Building.jpg",
+      beneficiaries: "700+ students ",
+      locations: "40 schools"
     },
-    {
-      id: 5,
-      title: "Community Libraries",
-      description: "Establishing and maintaining libraries that serve as learning hubs and safe spaces for students and community members.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      beneficiaries: "5,000+ users",
-      locations: "28 libraries"
-    },
-    {
-      id: 6,
-      title: "Adult Literacy Program",
-      description: "Providing reading, writing, and numeracy skills to adults who missed formal education opportunities in their youth.",
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      beneficiaries: "1,200+ adults",
-      locations: "18 centers"
-    }
+    
   ],
 
   impact: [
