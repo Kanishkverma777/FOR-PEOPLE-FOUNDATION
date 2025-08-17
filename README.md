@@ -1,6 +1,64 @@
 # For People Foundation 🎓
 
-**Empowering Minds, Building Futures**
+# For People Foundation 🌱
+
+> *Empowering communities through education, technology, and sustainable development*
+
+## 📋 About The Project
+
+**For People Foundation** is a modern, responsive website built for an NGO dedicated to making education accessible and communities stronger. This platform showcases the organization's mission, programs, and impact while providing an intuitive way for supporters to get involved.
+
+### 🎯 Mission
+Creating pathways to education and opportunity for underserved communities through innovative programs and sustainable development initiatives.
+
+### ✨ Key Features
+
+- **📱 Fully Responsive Design** - Optimized for all devices and screen sizes
+- **🎨 Modern UI/UX** - Clean, accessible interface with smooth animations
+- **⚡ Fast Performance** - Built with Vite for lightning-fast load times and optimal bundle size
+- **🌐 Multi-page Navigation** - Seamless routing with React Router DOM
+- **📊 Impact Visualization** - Dynamic statistics with intersection observer animations
+- **💝 Donation Integration** - Easy contribution pathways for supporters
+- **📞 Contact Forms** - Multiple ways to connect and get involved
+- **🛡️ Code Quality** - ESLint integration with modern React patterns
+
+## 🏫 Our Programs
+
+### 🎓 **Admission Support Program**
+Comprehensive guidance for students navigating the admission process to educational institutions.
+- Application assistance and documentation support
+- Interview preparation and counseling
+- Merit-based application strategies
+- Ongoing mentorship throughout the process
+
+### 📚 **Scholarship Guidance Program**
+Connecting deserving students with scholarship opportunities to pursue their educational dreams.
+- Scholarship research and identification
+- Application writing workshops
+- Financial aid counseling
+- Success tracking and support
+
+### 📢 **Policy Awareness Initiative**
+Educating communities about educational policies and their rights within the education system.
+- Policy literacy workshops
+- Rights awareness campaigns
+- Community advocacy training
+- Information dissemination programs
+
+### 🏢 **Education Consulting & Capacity Building**
+Strengthening educational institutions through strategic consulting and capacity building services.
+- Institutional assessment and planning
+- Curriculum development support
+- Teacher training and development
+- Infrastructure improvement guidance
+
+## 📈 Impact & Statistics
+
+- **2,000+** Students reached across all programs
+- **20** Communities actively served
+- **150+** Trained community volunteers
+- **92%** Program completion rate
+- **8** Years of dedicated service
 
 A modern, responsive website for For People Foundation - a non-profit organization dedicated to transforming communities through quality education and sustainable learning opportunities for all children worldwide.
 
@@ -19,10 +77,6 @@ A world where every child has access to education and the tools they need to bui
 ## 🚀 Live Demo
 
 Visit our website: [For People Foundation Website](https://your-domain.com)
-
-## 📸 Screenshots
-
-*Add screenshots of your website here*
 
 ## ✨ Features
 
@@ -50,52 +104,64 @@ Visit our website: [For People Foundation Website](https://your-domain.com)
 - **850+** Teachers Trained
 - **8** Years of Impact
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-### Frontend
-- **React 18.3.1** - Modern UI library
-- **React Router DOM 7.8.0** - Client-side routing
-- **Vite 7.1.2** - Fast build tool and dev server
-- **Tailwind CSS 3.4.1** - Utility-first CSS framework
-- **Lucide React 0.344.0** - Beautiful icons
+### Core Technologies
+- **[React 18.3.1](https://reactjs.org/)** - Modern UI library with hooks and component architecture
+- **[Vite 7.1.2](https://vitejs.dev/)** - Next-generation frontend build tool with HMR
+- **[React Router DOM 7.8.0](https://reactrouter.com/)** - Declarative routing for React applications
+
+### Styling & Design
+- **[Tailwind CSS 3.4.1](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[PostCSS](https://postcss.org/)** - CSS processing with modern features
+- **[Autoprefixer](https://autoprefixer.github.io/)** - Automatic vendor prefixing
+
+### UI Components & Icons
+- **[Lucide React 0.344.0](https://lucide.dev/)** - Beautiful & consistent SVG icon library
 
 ### Development Tools
-- **ESLint 9.9.1** - Code linting and formatting
-- **PostCSS 8.4.35** - CSS post-processing
-- **Autoprefixer 10.4.18** - Automatic vendor prefixing
+- **[ESLint 9.9.1](https://eslint.org/)** - Code quality and linting with React-specific rules
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)** - Fast Refresh and JSX support
 
-## 📁 Project Structure
+### Performance Features
+- **Code Splitting** - Automatic route-based code splitting
+- **Lazy Loading** - Optimized component loading
+- **Bundle Optimization** - Tree shaking and dead code elimination
+- **Modern JavaScript** - ES6+ features with broad browser support
+
+## 🗂️ Project Structure
 
 ```
 FOR PEOPLE FOUNDATION/
-├── public/                 # Static assets
+├── public/                   # Static assets and team photos
 ├── src/
 │   ├── components/
-│   │   ├── layout/        # Layout components
+│   │   ├── layout/          # Layout components (Navbar, Footer)
 │   │   │   ├── Footer.jsx
 │   │   │   └── Navbar.jsx
-│   │   └── ui/            # UI components
+│   │   └── ui/              # Reusable UI components
 │   │       ├── AboutSection.jsx
 │   │       ├── Hero.jsx
 │   │       ├── ImpactStats.jsx
 │   │       └── ProgramsGrid.jsx
-│   ├── data/
-│   │   └── content.js     # Site content and data
-│   ├── pages/             # Page components
+│   ├── pages/               # Page components
 │   │   ├── About.jsx
 │   │   ├── Contact.jsx
 │   │   ├── Donate.jsx
 │   │   ├── Home.jsx
 │   │   └── Programs.jsx
-│   ├── App.jsx            # Main app component
-│   ├── main.jsx           # App entry point
-│   └── index.css          # Global styles
-├── index.html             # HTML template
-├── package.json           # Dependencies and scripts
-├── vite.config.js         # Vite configuration
-├── tailwind.config.js     # Tailwind CSS configuration
-├── postcss.config.js      # PostCSS configuration
-└── eslint.config.js       # ESLint configuration
+│   ├── data/                # Content and configuration
+│   │   └── content.js       # Centralized site content
+│   ├── App.jsx              # Main application component
+│   ├── main.jsx             # Application entry point
+│   └── index.css            # Global styles and Tailwind imports
+├── index.html               # HTML template
+├── package.json             # Dependencies and scripts
+├── vite.config.js           # Vite configuration
+├── tailwind.config.js       # Tailwind CSS configuration
+├── postcss.config.js        # PostCSS configuration
+├── eslint.config.js         # ESLint configuration
+└── README.md               # Project documentation
 ```
 
 ## 🚀 Getting Started
@@ -108,8 +174,8 @@ FOR PEOPLE FOUNDATION/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Kanishkverma777/FOR-PEOPLE-FOUNDATION.git
-   cd FOR-PEOPLE-FOUNDATION
+   git clone https://github.com/your-username/for-people-foundation.git
+   cd "FOR PEOPLE FOUNDATION"
    ```
 
 2. **Install dependencies**
@@ -128,128 +194,19 @@ FOR PEOPLE FOUNDATION/
 ### Available Scripts
 
 ```bash
-# Start development server
+# Start development server with HMR
 npm run dev
 
-# Build for production
+# Build optimized production bundle
 npm run build
 
-# Preview production build
+# Preview production build locally
 npm run preview
 
-# Run ESLint
+# Run ESLint for code quality
 npm run lint
+
+# Run build and preview in sequence
+npm run build:preview
 ```
 
-## 🔧 Configuration
-
-### Customizing Content
-All website content is centralized in `src/data/content.js`. You can easily update:
-- Organization information
-- Program details
-- Impact statistics
-- Contact information
-- Donation tiers
-
-### Styling
-The project uses Tailwind CSS for styling. Customize the design by:
-- Modifying `tailwind.config.js`
-- Updating component styles
-- Adding custom CSS in `src/index.css`
-
-### Environment Variables
-Create a `.env` file for environment-specific configurations:
-```env
-VITE_API_URL=your_api_url
-VITE_DONATION_API=your_donation_api
-```
-
-## 📱 Responsive Design
-
-The website is fully responsive and optimized for:
-- **Desktop** (1024px and above)
-- **Tablet** (768px - 1023px)
-- **Mobile** (320px - 767px)
-
-## 🔒 Security
-
-- All dependencies are regularly updated
-- Security vulnerabilities are automatically fixed
-- Input validation on all forms
-- Secure coding practices followed
-
-## 🌐 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 📝 Content Management
-
-### Adding New Programs
-1. Open `src/data/content.js`
-2. Add new program object to the `programs` array
-3. Include: id, title, description, image, beneficiaries, locations
-
-### Updating Impact Statistics
-1. Modify the `impact` array in `src/data/content.js`
-2. Update values and labels as needed
-
-### Changing Contact Information
-1. Update the `contact` object in `src/data/content.js`
-2. Modify address, phone, email, and hours
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-### Development Guidelines
-- Follow the existing code style
-- Write meaningful commit messages
-- Test your changes thoroughly
-- Update documentation as needed
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-**For People Foundation**
-- **Website**: [forpeoplefoundation.org](https://forpeoplefoundation.org)
-- **Email**: info@forpeoplefoundation.org
-- **Phone**: +1 (555) 123-4567
-- **Address**: 123 Education Street, Learning City, LC 12345
-
-### Social Media
-- [Facebook](#)
-- [Twitter](#)
-- [Instagram](#)
-- [LinkedIn](#)
-
-## 🙏 Acknowledgments
-
-- Thanks to all our volunteers and supporters
-- Special recognition to our partner organizations
-- Gratitude to the communities we serve
-- Appreciation for all contributors to this project
-
-## 📊 Project Status
-
-- ✅ **Build Status**: Passing
-- ✅ **Security**: No vulnerabilities
-- ✅ **Code Quality**: ESLint passing
-- ✅ **Dependencies**: Up to date
-
----
-
-**Made with ❤️ for education and community empowerment**
-
-*Last updated: August 12, 2025*
