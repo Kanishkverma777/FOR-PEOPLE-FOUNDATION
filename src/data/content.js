@@ -91,16 +91,10 @@ export const siteData = {
   ],
 
   contact: {
-    address: "123 Education Street, Learning City, LC 12345",
-    phone: "+1 (555) 123-4567",
-    email: "info@forpeoplefoundation.org",
+    address: "B-7/23, St. No. 1, Kabir Nagar, Delhi-110032",
+    phone: "+91  9667524656",
+    email: "forpeoplefoundation@gmail.com",
     hours: "Monday - Friday: 9:00 AM - 6:00 PM"
   },
 
-  social: {
-    facebook: "#",
-    twitter: "#",
-    instagram: "#",
-    linkedin: "#"
-  }
 };
