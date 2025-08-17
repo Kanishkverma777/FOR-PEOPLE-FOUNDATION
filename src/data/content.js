@@ -19,9 +19,9 @@ export const siteData = {
   },
 
   about: {
-    title: "About For People Foundation",
-    description: "Founded in 2015, For People Foundation has been dedicated to breaking the cycle of poverty through education. We believe that every child deserves the opportunity to learn, grow, and succeed.",
-    mission: "To provide quality education and learning opportunities to underserved communities worldwide.",
+    title: "For People Foundation",
+    description: "Founded in 2019, For People Foundation has been dedicated to breaking the cycle of poverty through education. We believe that every child deserves the opportunity to learn, grow, and succeed.",
+    mission: "To facilitate quality education and learning opportunities for underserved communities worldwide, in alignment with government policies promoting equitable access to education.",
     vision: "A world where every child has access to education and the tools they need to build a better future.",
     values: [
       { title: "Equity", description: "Ensuring equal access to education for all children" },
@@ -29,7 +29,7 @@ export const siteData = {
       { title: "Community", description: "Building strong partnerships with local communities" },
       { title: "Impact", description: "Creating measurable, lasting change" }
     ],
-    image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    image: "https://images.unsplash.com/photo-1636772523547-5577d04e8dc1?q=80&w=2966&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
 
   programs: [
@@ -84,52 +84,10 @@ export const siteData = {
   ],
 
   impact: [
-    { label: "Students Reached", value: 15000, suffix: "+" },
-    { label: "Communities Served", value: 45, suffix: "" },
-    { label: "Teachers Trained", value: 850, suffix: "+" },
-    { label: "Years of Impact", value: 8, suffix: "" }
-  ],
-
-  testimonials: [
-    {
-      name: "Maria Gonzalez",
-      role: "Parent",
-      quote: "Thanks to For People Foundation, my daughter now has access to quality education and dreams of becoming a doctor.",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
-    },
-    {
-      name: "James Okonkwo",
-      role: "Teacher",
-      quote: "The training program transformed how I teach. My students are more engaged and learning faster than ever.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
-    }
-  ],
-
-  donationTiers: [
-    {
-      amount: 25,
-      title: "Provide School Supplies",
-      description: "Help equip a student with essential learning materials for a month",
-      impact: "1 student supported"
-    },
-    {
-      amount: 100,
-      title: "Sponsor a Student",
-      description: "Cover educational costs for one student for a full semester",
-      impact: "1 full scholarship"
-    },
-    {
-      amount: 250,
-      title: "Train a Teacher",
-      description: "Fund professional development for one educator",
-      impact: "30+ students impacted"
-    },
-    {
-      amount: 500,
-      title: "Build a Classroom",
-      description: "Help construct or renovate learning spaces",
-      impact: "150+ students benefit"
-    }
+    { label: "Students Reached", value: 2000, suffix: "+" },
+    { label: "Communities Served", value: 20, suffix: "" },
+    { label: "Teachers ", value: 200, suffix: "+" },
+    { label: "Years of Impact", value: 6, suffix: "" }
   ],
 
   contact: {

@@ -43,7 +43,7 @@ export const ImpactStats = ({ stats }) => {
           }
         }, duration / steps);
 
-        return () => clearInterval(timer);
+        return () => clearInterval(timer);     
       });
     }
   }, [isVisible, stats]);
