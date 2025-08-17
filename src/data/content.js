@@ -62,24 +62,56 @@ export const siteData = {
       title: "Education Consulting & Capacity Building",
       description: "We partner with schools, NGOs, and local organizations to strengthen educational delivery. Through tailored consulting, workshops, and capacity-building sessions, we empower institutions to create long-term impact.",
       image: "/Education Consulting & Capacity Building.jpg",
-      beneficiaries: "700+ students ",
+      beneficiaries: "700+ students",
       locations: "40 schools"
-    },
-    
+    }
   ],
 
   impact: [
     { label: "Students Reached", value: 2000, suffix: "+" },
     { label: "Communities Served", value: 20, suffix: "" },
-    { label: "Teachers ", value: 200, suffix: "+" },
+    { label: "Teachers Trained", value: 200, suffix: "+" },
     { label: "Years of Impact", value: 6, suffix: "" }
   ],
 
   contact: {
     address: "B-7/23, St. No. 1, Kabir Nagar, Delhi-110032",
-    phone: "+91  9667524656",
+    phone: "+91 9667524656",
     email: "forpeoplefoundation@gmail.com",
     hours: "Monday - Friday: 9:00 AM - 6:00 PM"
   },
 
+  social: {
+    facebook: "#",
+    twitter: "#",
+    instagram: "#",
+    linkedin: "#"
+  },
+
+  donationTiers: [
+    {
+      amount: 500,
+      title: "Support a Student",
+      description: "Help provide educational materials and support for one student",
+      impact: "1 student supported"
+    },
+    {
+      amount: 1500,
+      title: "Classroom Essentials",
+      description: "Fund educational resources for an entire classroom",
+      impact: "30+ students benefit"
+    },
+    {
+      amount: 5000,
+      title: "Program Sponsor",
+      description: "Support an entire educational program in a community",
+      impact: "100+ students impacted"
+    },
+    {
+      amount: 10000,
+      title: "Community Builder",
+      description: "Help establish educational infrastructure in underserved areas",
+      impact: "500+ students benefit"
+    }
+  ]
 };

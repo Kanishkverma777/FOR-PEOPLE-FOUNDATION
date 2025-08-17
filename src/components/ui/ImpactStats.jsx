@@ -4,46 +4,56 @@ export const ImpactStats = ({ stats }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [animatedValues, setAnimatedValues] = useState(stats.map(() => 0));
   const sectionRef = useRef(null);
+  const hasAnimated = useRef(false);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && !isVisible) {
+        if (entry.isIntersecting && !hasAnimated.current) {
           setIsVisible(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 } // Reduced threshold for better triggering
     );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
+    const currentSection = sectionRef.current;
+    if (currentSection) {
+      observer.observe(currentSection);
     }
 
-    return () => observer.disconnect();
-  }, [isVisible]);
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   useEffect(() => {
-    if (isVisible) {
+    if (isVisible && !hasAnimated.current) {
+      hasAnimated.current = true;
+      
       stats.forEach((stat, index) => {
-        const duration = 2000; // 2 seconds
-        const steps = 60;
-        const increment = stat.value / steps;
-        let currentStep = 0;
-
-        const timer = setInterval(() => {
-          currentStep++;
+        const duration = 2500;
+        const startTime = Date.now();
+        
+        const animateValue = () => {
+          const elapsed = Date.now() - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          
+          // Easing function for smooth animation
+          const easeOutCubic = 1 - Math.pow(1 - progress, 3);
+          const newValue = Math.floor(stat.value * easeOutCubic);
+          
           setAnimatedValues(prev => {
             const newValues = [...prev];
-            newValues[index] = Math.min(Math.floor(increment * currentStep), stat.value);
+            newValues[index] = newValue;
             return newValues;
           });
 
-          if (currentStep >= steps) {
-            clearInterval(timer);
+          if (progress < 1) {
+            requestAnimationFrame(animateValue);
           }
-        }, duration / steps);
-
-        return () => clearInterval(timer);     
+        };
+        
+        requestAnimationFrame(animateValue);
       });
     }
   }, [isVisible, stats]);

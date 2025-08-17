@@ -9,15 +9,6 @@ import { Donate } from './pages/Donate';
 import { Contact } from './pages/Contact';
 
 function App() {
-  React.useEffect(() => {
-    // Smooth scrolling for the entire app
-    document.documentElement.style.scrollBehavior = 'smooth';
-    
-    return () => {
-      document.documentElement.style.scrollBehavior = 'auto';
-    };
-  }, []);
-
   return (
     <Router>
       <div className="min-h-screen flex flex-col">

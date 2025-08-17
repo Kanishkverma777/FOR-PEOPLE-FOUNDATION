@@ -12,7 +12,6 @@ export const AboutSection = ({
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main About Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -47,7 +46,6 @@ export const AboutSection = ({
           </div>
         </div>
 
-        {/* Values Section */}
         {values && values.length > 0 && (
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">Our Core Values</h3>

@@ -46,7 +46,6 @@ const MILESTONES = [
   { id: 6, year: '2024', event: 'Celebrating 2,000+ students reached' }
 ];
 
-// team member cards
 const TeamMemberCard = memo(({ member }) => (
   <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
     <img
@@ -68,7 +67,6 @@ const TeamMemberCard = memo(({ member }) => (
 
 TeamMemberCard.displayName = 'TeamMemberCard';
 
-// milestone items
 const MilestoneItem = memo(({ milestone, isLast }) => (
   <div className="relative flex items-center mb-8">
     <div className="flex-shrink-0 w-24 text-right">
@@ -87,7 +85,6 @@ const MilestoneItem = memo(({ milestone, isLast }) => (
 MilestoneItem.displayName = 'MilestoneItem';
 
 export const About = memo(() => {
-  // about wala part
   const heroProps = useMemo(() => ({
     title: "About 'For People Foundation'",
     subtitle: "We're dedicated to making quality learning accessible to underprivileged children. Our programs empower students and strengthen grassroots education systems.",
@@ -95,12 +92,10 @@ export const About = memo(() => {
     height: "large"
   }), []);
 
-
   return (
     <div className="min-h-screen">
       <Hero {...heroProps} />
 
-      {/* Team wala part */}
       <section className="py-16 bg-gray-50" aria-labelledby="team-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -120,8 +115,6 @@ export const About = memo(() => {
         </div>
       </section>
 
-
-      {/* story wala part */}
       <section className="py-16 bg-white" aria-labelledby="story-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">

@@ -25,10 +25,8 @@ export const Hero = ({
         backgroundPosition: 'center'
       }}
     >
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/50"></div>
+      <div className="absolute inset-0 bg-black/50" />
       
-      {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
           {title}
