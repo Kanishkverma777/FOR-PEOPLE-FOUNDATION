@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, GraduationCap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { siteData } from '../../data/content';
 
 export const Navbar = () => {
@@ -25,11 +25,22 @@ export const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center space-x-2">
-            <GraduationCap className={`h-8 w-8 transition-colors ${
-              isScrolled ? 'text-blue-600' : 'text-white'
-            }`} />
-            <span className={`text-xl font-bold transition-colors ${
+          <Link to="/" className="flex items-center space-x-3">
+            <div className="flex items-center">
+              <img 
+                src="/logo.png" 
+                alt="For People Foundation Logo" 
+                className={`h-10 w-auto transition-all duration-300 ${
+                  isScrolled ? 'opacity-100' : 'opacity-95'
+                }`}
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  const fallback = e.target.parentNode.nextSibling;
+                  if (fallback) fallback.classList.remove('hidden');
+                }}
+              />
+            </div>
+            <span className={`text-lg font-bold transition-colors ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
               {siteData.organizationName}
